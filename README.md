@@ -60,7 +60,6 @@ data.js의 원본 객체를 수정하지 않고
 원본 메모리의 객체를 참조하고 있는걸 확인 했습니다 . 
 
 배열 내부의 객체를 하나하나 복사해서 값으로 넣어주기엔 코드양이
-너무 길어져서
-JSON.parse(JSON.stringify(productData)) 방법으로 
+너무 길어져서 JSON.parse(JSON.stringify(productData)) 방법으로 
 깊은복사를 진행했습니다 . 
 
