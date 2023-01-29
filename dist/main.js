@@ -134,7 +134,6 @@ const toggleCartBox = () => {
         $closeBtn.innerHTML = '<i class="fa-sharp fa-solid fa-xmark delete-product"></i>';
     }
     toggleVal = !toggleVal;
-    console.log(toggleVal);
     showStateOfCart();
 };
 toggleCartBox(); //default
@@ -197,9 +196,7 @@ const renderPickedItems = (tar, option) => {
 let checkedItemsArr;
 const upDataPrice = () => {
     let price = [...document.querySelectorAll('.item-price')];
-    console.log(price);
     let sumPrice = 0;
-    console.log(price);
     if ($sumBox == null)
         return;
     checkedItemsArr = price.map((p, i) => {
